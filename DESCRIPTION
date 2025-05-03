@@ -1,7 +1,7 @@
 Package: dataInfo
 Title: Framework for data
 Description: Provides a framework for data & associated meta data.
-Version: 0.2.0.0000
+Version: 0.3.0.0000
 Author: Ben Bruyneel <benbruyneel@gmail.com>
 Maintainer: Ben Bruyneel <benbruyneel@gmail.com>
 License: GPL (>=3)

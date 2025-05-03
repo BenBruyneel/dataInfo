@@ -20,7 +20,7 @@
 #' ifelseProper(TRUE, c(1,1), c("B","B"))
 #' ifelseProper(FALSE, c(1,1), c("B","B"))
 #'
-#' @noRd
+#' @export
 ifelseProper <- function(logicValue = NULL, ifTrue = NULL, ifFalse = NULL) {
   if (missing(logicValue)) {
     return(NULL)
@@ -53,7 +53,7 @@ ifelseProper <- function(logicValue = NULL, ifTrue = NULL, ifFalse = NULL) {
 #' is.Class(1:4, "character")
 #' is.Class(1:4, "integer")
 #'
-#' @noRd
+#' @export
 is.Class <- function(object, whichClass) {
   return(whichClass %in% class(object))
 }
@@ -81,7 +81,7 @@ is.Class <- function(object, whichClass) {
 #' strReplaceAll(string = c("Hello", "Word"), pattern = c("e","o"), replacement = "")
 #' strReplaceAll(string = c("Hello", "Word"), pattern = c("e","o"), replacement = c("a", "-"))
 #'
-#' @noRd
+#' @export
 strReplaceAll <- function(string, pattern = NA, replacement = "") {
   if (identical(pattern, NA)) {
     return(string)
